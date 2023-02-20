@@ -10,6 +10,7 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
+        "owowagency/laravel-resources": "^3.2",
         "owowagency/phpunit-snapshot-assertions": "^0.0.8",
     },
     "require-dev": {
