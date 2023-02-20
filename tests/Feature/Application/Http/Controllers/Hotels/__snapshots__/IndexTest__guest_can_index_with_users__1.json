@@ -1,0 +1,195 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 1,
+            "internal_id": "Eum.",
+            "name": "Miss Lue Zemlak Sr.",
+            "address": "384 Hermina Brooks Suite 003",
+            "city": "West Ianstad",
+            "state": "Alabama",
+            "zip_code": "70039-0366",
+            "country": "Wallis and Futuna",
+            "phone_number": "702-240-0124",
+            "email": "price.hilton@example.com",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": [
+                {
+                    "id": 1,
+                    "name": "Humberto Stehr",
+                    "email": "aheidenreich@example.net",
+                    "email_verified_at": "2023-02-20T14:35:38.000000Z",
+                    "created_at": "2023-02-20T14:35:38.000000Z",
+                    "updated_at": "2023-02-20T14:35:38.000000Z",
+                    "pivot": {
+                        "hotel_id": "1",
+                        "user_id": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "internal_id": "Eius.",
+            "name": "Katelyn Oberbrunner",
+            "address": "278 Arvel Trail Suite 264",
+            "city": "Allantown",
+            "state": "Colorado",
+            "zip_code": "26870",
+            "country": "Jersey",
+            "phone_number": "(602) 464-0226",
+            "email": "janice44@example.org",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": []
+        },
+        {
+            "id": 3,
+            "internal_id": "Vel.",
+            "name": "Emily Frami",
+            "address": "593 Little Branch Apt. 909",
+            "city": "Marceloshire",
+            "state": "Minnesota",
+            "zip_code": "34685",
+            "country": "Costa Rica",
+            "phone_number": "1-712-493-1157",
+            "email": "vschimmel@example.net",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": []
+        },
+        {
+            "id": 4,
+            "internal_id": "Est.",
+            "name": "Dolly Schumm",
+            "address": "7655 Cristian Brook Apt. 350",
+            "city": "O'Connellchester",
+            "state": "Florida",
+            "zip_code": "07535",
+            "country": "American Samoa",
+            "phone_number": "929.281.0054",
+            "email": "ykuhn@example.org",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": []
+        },
+        {
+            "id": 5,
+            "internal_id": "Sunt.",
+            "name": "Adelbert Harris",
+            "address": "84538 Santina Isle Apt. 996",
+            "city": "Port America",
+            "state": "North Carolina",
+            "zip_code": "09725",
+            "country": "Mayotte",
+            "phone_number": "+1-650-706-4926",
+            "email": "oherzog@example.org",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": []
+        },
+        {
+            "id": 6,
+            "internal_id": "Et.",
+            "name": "Emmanuel Koepp",
+            "address": "977 Emilio Forges",
+            "city": "Rutherfordshire",
+            "state": "South Dakota",
+            "zip_code": "16261",
+            "country": "French Southern Territories",
+            "phone_number": "+1 (765) 788-6453",
+            "email": "bernice.hills@example.net",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": []
+        },
+        {
+            "id": 7,
+            "internal_id": "Aut.",
+            "name": "Dr. Lorenzo Tremblay",
+            "address": "17246 Monahan Expressway Apt. 209",
+            "city": "Zanderchester",
+            "state": "District of Columbia",
+            "zip_code": "42922",
+            "country": "Kiribati",
+            "phone_number": "(325) 850-2527",
+            "email": "waino03@example.org",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": []
+        },
+        {
+            "id": 8,
+            "internal_id": "Qui.",
+            "name": "Hillary Botsford III",
+            "address": "87383 Bosco Points Suite 749",
+            "city": "North Harley",
+            "state": "Oklahoma",
+            "zip_code": "63447",
+            "country": "New Caledonia",
+            "phone_number": "862-535-5347",
+            "email": "daniella.stroman@example.org",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": []
+        },
+        {
+            "id": 9,
+            "internal_id": "Sit.",
+            "name": "Paula Dooley",
+            "address": "521 Julie Key Apt. 352",
+            "city": "East Tyrique",
+            "state": "District of Columbia",
+            "zip_code": "35962",
+            "country": "Guernsey",
+            "phone_number": "380-726-6661",
+            "email": "linnea.stehr@example.com",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": []
+        },
+        {
+            "id": 10,
+            "internal_id": "Et.",
+            "name": "Laron Kohler",
+            "address": "703 Daniela Cove Suite 815",
+            "city": "Purdychester",
+            "state": "Rhode Island",
+            "zip_code": "07117-4909",
+            "country": "Macao",
+            "phone_number": "1-781-906-3803",
+            "email": "eleanora44@example.org",
+            "created_at": "2023-02-20T14:35:38.000000Z",
+            "updated_at": "2023-02-20T14:35:38.000000Z",
+            "users": []
+        }
+    ],
+    "first_page_url": "http:\/\/localhost\/api\/hotels?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "http:\/\/localhost\/api\/hotels?page=1",
+    "links": [
+        {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+        },
+        {
+            "url": "http:\/\/localhost\/api\/hotels?page=1",
+            "label": "1",
+            "active": true
+        },
+        {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+        }
+    ],
+    "next_page_url": null,
+    "path": "http:\/\/localhost\/api\/hotels",
+    "per_page": 15,
+    "prev_page_url": null,
+    "to": 10,
+    "total": 10
+}

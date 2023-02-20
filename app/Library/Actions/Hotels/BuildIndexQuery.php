@@ -10,8 +10,11 @@ use Spatie\QueryBuilder\QueryBuilder;
 class BuildIndexQuery {
     public function __invoke(Builder|Relation|string $subject = Hotel::class, $search = null)
     {
-        return QueryBuilder::for($subject)->tap(function ($query) use ($search) {
-            return $search ? $query->whereIn('id', Hotel::search($search)->keys()) : $query;
-        });
+        return QueryBuilder::for($subject)->allowedIncludes([
+                'users',
+            ])
+            ->tap(function ($query) use ($search) {
+                return $search ? $query->whereIn('id', Hotel::search($search)->keys()) : $query;
+            });
     }
 }
