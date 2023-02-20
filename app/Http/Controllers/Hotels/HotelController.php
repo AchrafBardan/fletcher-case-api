@@ -10,6 +10,9 @@ use App\Library\Actions\Hotels\UpdateHotel;
 use App\Models\Hotels\Hotel;
 use Illuminate\Http\Request;
 
+/**
+ * @group Hotels
+ */
 class HotelController extends Controller
 {
     public function index(Request $request)
