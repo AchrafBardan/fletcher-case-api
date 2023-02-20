@@ -27,6 +27,29 @@ class UpdateTest extends TestCase
         ]);
     }
 
+    /** @test */
+    public function user_can_update_connected_users()
+    {
+        [$user, $hotel] = $this->prepare();
+
+        $response = $this->makeRequest($user, $hotel, [
+            'users' => [
+                'sync' => [
+                    ($user = User::factory()->create())->getKey(),
+                ],
+            ],
+        ]);
+
+        $this->assertResponse($response, 201);
+
+        $this->assertDatabaseHas('hotel_user', [
+            'hotel_id' => $hotel->getKey(),
+            'user_id' => $user->getKey(),
+        ]);
+
+        $this->assertDatabaseCount('hotel_user', 2);
+    }
+
     /**
      * Make request.
      */

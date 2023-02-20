@@ -25,7 +25,9 @@ class UpdateRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['required', 'string', 'max:255'],
+            'name' => ['string', 'max:255'],
+            'users.sync' => ['array'],
+            'users.sync.*' => ['integer', 'exists:users,id'],
         ];
     }
 }

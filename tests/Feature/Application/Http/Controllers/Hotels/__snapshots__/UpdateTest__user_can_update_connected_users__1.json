@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "internal_id": "Quia.",
+    "name": "Heath Hand",
+    "address": "603 Madie Mews",
+    "city": "Wittingbury",
+    "state": "Texas",
+    "zip_code": "10560",
+    "country": "Luxembourg",
+    "phone_number": "(478) 924-3154",
+    "email": "chase.bayer@example.org",
+    "created_at": "2023-02-20T14:28:49.000000Z",
+    "updated_at": "2023-02-20T14:28:49.000000Z"
+}
