@@ -21,7 +21,7 @@ class HotelFactory extends Factory
             'name' => $this->faker->name(),
             'phone_number' => $this->faker->phoneNumber(),
             'email' => $this->faker->unique()->safeEmail(),
-            'address' => $this->faker->address(),
+            'address' => $this->faker->streetAddress(),
             'city' => $this->faker->city(),
             'state' => $this->faker->state(),
             'country' => $this->faker->country(),
