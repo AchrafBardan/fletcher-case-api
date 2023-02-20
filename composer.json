@@ -12,6 +12,7 @@
         "laravel/scout": "^9.8",
         "laravel/tinker": "^2.8",
         "league/csv": "^9.0",
+        "nunomaduro/termwind": "^1.15",
         "owowagency/laravel-resources": "^3.2",
         "owowagency/phpunit-snapshot-assertions": "^0.0.8",
         "spatie/laravel-query-builder": "^5.1",
