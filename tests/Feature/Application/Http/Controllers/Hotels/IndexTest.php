@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Feature\Application\Controllers\Hotels;
+namespace Tests\Feature\Application\Http\Controllers\Hotels;
 
 use App\Models\Hotels\Hotel;
 use Illuminate\Support\Arr;
