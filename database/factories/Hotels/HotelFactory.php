@@ -17,7 +17,7 @@ class HotelFactory extends Factory
     public function definition()
     {
         return [
-            'internal_id' => $this->faker->randomAscii(),
+            'internal_id' => $this->faker->text(5),
             'name' => $this->faker->name(),
             'phone_number' => $this->faker->phoneNumber(),
             'email' => $this->faker->unique()->safeEmail(),
