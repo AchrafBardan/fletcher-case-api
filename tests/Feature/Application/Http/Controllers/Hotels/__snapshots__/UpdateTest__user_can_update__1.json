@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "internal_id": "Et.",
+    "name": "New name",
+    "address": "19841 Bode Circle",
+    "city": "Elenorashire",
+    "state": "Kentucky",
+    "zip_code": "65507-0880",
+    "country": "Cyprus",
+    "phone_number": "531.323.5975",
+    "email": "trevion66@example.com",
+    "created_at": "2023-02-20T14:15:13.000000Z",
+    "updated_at": "2023-02-20T14:15:13.000000Z"
+}
