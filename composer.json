@@ -13,6 +13,7 @@
         "league/csv": "^9.0",
         "owowagency/laravel-resources": "^3.2",
         "owowagency/phpunit-snapshot-assertions": "^0.0.8",
+        "spatie/laravel-query-builder": "^5.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

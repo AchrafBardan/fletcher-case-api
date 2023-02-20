@@ -1,0 +1,172 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 1,
+            "internal_id": ">",
+            "name": "Hellen Corkery II",
+            "address": "38834 Rowe Green\nNorth Coleman, CO 32548-7039",
+            "city": "East Matteo",
+            "state": "Utah",
+            "zip_code": "85285",
+            "country": "Bhutan",
+            "phone_number": "435.717.7205",
+            "email": "haskell.turcotte@example.com",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        },
+        {
+            "id": 2,
+            "internal_id": "m",
+            "name": "Marianne Jast",
+            "address": "970 Langworth Forest\nSchuppeburgh, VA 76929",
+            "city": "South Crystalberg",
+            "state": "Texas",
+            "zip_code": "45948-4954",
+            "country": "Germany",
+            "phone_number": "+1 (657) 465-3763",
+            "email": "uthompson@example.org",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        },
+        {
+            "id": 3,
+            "internal_id": "4",
+            "name": "Daniella Huels",
+            "address": "3464 Olson Creek Apt. 562\nNorth Marianne, RI 38281-8941",
+            "city": "East Jovan",
+            "state": "Pennsylvania",
+            "zip_code": "40489",
+            "country": "Belarus",
+            "phone_number": "+1-702-864-2831",
+            "email": "giles38@example.com",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        },
+        {
+            "id": 4,
+            "internal_id": "\"",
+            "name": "Cordelia Okuneva",
+            "address": "581 Labadie Isle Suite 201\nKunzehaven, GA 57807-8282",
+            "city": "Lake Glenniebury",
+            "state": "Missouri",
+            "zip_code": "16033-7674",
+            "country": "Hong Kong",
+            "phone_number": "+1-845-689-6603",
+            "email": "vblanda@example.net",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        },
+        {
+            "id": 5,
+            "internal_id": "o",
+            "name": "Selmer Robel",
+            "address": "2352 Jewel Estates Apt. 288\nHarveybury, NY 48868",
+            "city": "Bednartown",
+            "state": "Missouri",
+            "zip_code": "55463-3443",
+            "country": "Papua New Guinea",
+            "phone_number": "+1-617-513-6027",
+            "email": "turner.dexter@example.net",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        },
+        {
+            "id": 6,
+            "internal_id": ",",
+            "name": "Alene Pacocha",
+            "address": "99073 Ruthie Green Apt. 998\nDietrichborough, AL 97690",
+            "city": "New Oriefort",
+            "state": "Delaware",
+            "zip_code": "96159",
+            "country": "Cocos (Keeling) Islands",
+            "phone_number": "+1 (651) 693-9892",
+            "email": "ypagac@example.org",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        },
+        {
+            "id": 7,
+            "internal_id": "*",
+            "name": "Tyra Witting III",
+            "address": "42977 Mose Mountains Apt. 724\nRandallchester, UT 14690-2783",
+            "city": "Port Reyna",
+            "state": "Delaware",
+            "zip_code": "71637",
+            "country": "United States Minor Outlying Islands",
+            "phone_number": "(612) 258-3720",
+            "email": "jenkins.treva@example.net",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        },
+        {
+            "id": 8,
+            "internal_id": "B",
+            "name": "Heloise Krajcik",
+            "address": "48085 Abbey Points Apt. 675\nCorybury, DE 94906-0646",
+            "city": "West Emanuelville",
+            "state": "Nevada",
+            "zip_code": "39916",
+            "country": "United States Virgin Islands",
+            "phone_number": "906-948-6597",
+            "email": "dlubowitz@example.org",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        },
+        {
+            "id": 9,
+            "internal_id": "*",
+            "name": "Juston Haag",
+            "address": "259 Quigley Dale Suite 897\nSouth Ricomouth, CT 54519",
+            "city": "Hodkiewiczhaven",
+            "state": "Nevada",
+            "zip_code": "85907",
+            "country": "Syrian Arab Republic",
+            "phone_number": "629.857.7602",
+            "email": "margarita56@example.com",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        },
+        {
+            "id": 10,
+            "internal_id": "v",
+            "name": "Mr. Neal Russel",
+            "address": "513 Kirlin Bridge Apt. 764\nMyriamborough, MT 85415",
+            "city": "Port Elinormouth",
+            "state": "Wisconsin",
+            "zip_code": "50389-4021",
+            "country": "Denmark",
+            "phone_number": "+1-828-710-8503",
+            "email": "leanne76@example.com",
+            "created_at": "2023-02-20T12:58:57.000000Z",
+            "updated_at": "2023-02-20T12:58:57.000000Z"
+        }
+    ],
+    "first_page_url": "http:\/\/localhost\/api\/hotels?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "http:\/\/localhost\/api\/hotels?page=1",
+    "links": [
+        {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+        },
+        {
+            "url": "http:\/\/localhost\/api\/hotels?page=1",
+            "label": "1",
+            "active": true
+        },
+        {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+        }
+    ],
+    "next_page_url": null,
+    "path": "http:\/\/localhost\/api\/hotels",
+    "per_page": 15,
+    "prev_page_url": null,
+    "to": 10,
+    "total": 10
+}
