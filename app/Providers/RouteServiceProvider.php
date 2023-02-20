@@ -29,13 +29,34 @@ class RouteServiceProvider extends ServiceProvider
         $this->configureRateLimiting();
 
         $this->routes(function () {
-            Route::middleware('api')
-                ->prefix('api')
-                ->group(base_path('routes/api.php'));
-
+            $this->mapApiRoutes();
             Route::middleware('web')
                 ->group(base_path('routes/web.php'));
         });
+    }
+
+    /**
+     * Define the "api" routes for the application.
+     *
+     * These routes are typically stateless.
+     *
+     * @return void
+     */
+    protected function mapApiRoutes()
+    {
+        $this->mapRouteGroup(base_path('routes/api/').'*.php', 'api', 'api');
+    }
+
+    /**
+     * Map route group.
+     */
+    protected function mapRouteGroup(string $path, string|array $middleware = [], string $prefix = ''): void
+    {
+        foreach (glob($path) as $filename) {
+            Route::middleware($middleware)
+                ->prefix($prefix)
+                ->group($filename);
+        }
     }
 
     /**
