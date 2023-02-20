@@ -2,8 +2,10 @@
 
 namespace App\Models\Hotels;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Laravel\Scout\Searchable;
 
 class Hotel extends Model
@@ -41,5 +43,13 @@ class Hotel extends Model
             'country' => $this->country,
             'zip_code' => $this->zip_code,
         ];
+    }
+
+    /**
+     * The users that belong to the hotel.
+     */
+    public function users(): BelongsToMany
+    {
+        return $this->belongsToMany(User::class, 'hotel_user');
     }
 }
