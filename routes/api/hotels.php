@@ -6,5 +6,5 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('hotels')->group(function () {
     Route::get('/', [HotelController::class, 'index']);
     Route::get('/{id}', [HotelController::class, 'show']);
-    Route::put('/{hotel}', [HotelController::class, 'update']);
+    Route::put('/{hotel}', [HotelController::class, 'update'])->middleware('auth:sanctum');
 });
