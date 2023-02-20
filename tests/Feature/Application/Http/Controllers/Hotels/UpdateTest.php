@@ -19,7 +19,7 @@ class UpdateTest extends TestCase
             'name' => $newName = 'New name',
         ]);
 
-        $this->assertResponse($response);
+        $this->assertResponse($response, 201);
 
         $this->assertDatabaseHas('hotels', [
             'id' => $hotel->getKey(),

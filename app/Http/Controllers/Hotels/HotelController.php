@@ -33,6 +33,6 @@ class HotelController extends Controller
     {
         $hotel = (new UpdateHotel())($hotel, $request->validated());
 
-        return response()->json(resource($hotel));
+        return response()->json(resource($hotel), 201);
     }
 }
