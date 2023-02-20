@@ -3,8 +3,6 @@
 namespace Tests\Feature\Application\Controllers\Hotels;
 
 use App\Models\Hotels\Hotel;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Arr;
 use Illuminate\Testing\TestResponse;
 use Tests\TestCase;
@@ -17,6 +15,24 @@ class IndexTest extends TestCase
         $this->prepare();
 
         $response = $this->makeRequest();
+
+        $this->assertResponse($response);
+    }
+
+    /** @test */
+    public function guest_can_index_with_text_search()
+    {
+        $this->prepare();
+
+        Hotel::factory()->create([
+            'name' => 'Het hotel der hotels',
+        ]);
+
+        $response = $this->makeRequest([
+            'search' => 'Het hotel der hotels',
+        ]);
+
+        $this->assertCount(1, $response->json('data'));
 
         $this->assertResponse($response);
     }

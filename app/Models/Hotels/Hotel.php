@@ -4,10 +4,11 @@ namespace App\Models\Hotels;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Laravel\Scout\Searchable;
 
 class Hotel extends Model
 {
-    use HasFactory;
+    use HasFactory, Searchable;
 
     /**
      * The attributes that are mass assignable.
@@ -25,4 +26,20 @@ class Hotel extends Model
         'country',
         'zip_code',
     ];
+
+    public function toSearchableArray()
+    {
+        return [
+            'id' => (int) $this->id,
+            'internal_id' => $this->internal_id,
+            'name' => $this->name,
+            'phone_number' => $this->phone_number,
+            'email' => $this->email,
+            'address' => $this->address,
+            'city' => $this->city,
+            'state' => $this->state,
+            'country' => $this->country,
+            'zip_code' => $this->zip_code,
+        ];
+    }
 }

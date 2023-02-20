@@ -1,0 +1,46 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 11,
+            "internal_id": "Vero.",
+            "name": "Het hotel der hotels",
+            "address": "522 Labadie Expressway\nLake Sibyl, VA 79677-9423",
+            "city": "Hilltown",
+            "state": "Wyoming",
+            "zip_code": "31644",
+            "country": "Colombia",
+            "phone_number": "203.640.1191",
+            "email": "zboncak.anthony@example.net",
+            "created_at": "2023-02-20T13:21:18.000000Z",
+            "updated_at": "2023-02-20T13:21:18.000000Z"
+        }
+    ],
+    "first_page_url": "http:\/\/localhost\/api\/hotels?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "http:\/\/localhost\/api\/hotels?page=1",
+    "links": [
+        {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+        },
+        {
+            "url": "http:\/\/localhost\/api\/hotels?page=1",
+            "label": "1",
+            "active": true
+        },
+        {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+        }
+    ],
+    "next_page_url": null,
+    "path": "http:\/\/localhost\/api\/hotels",
+    "per_page": 15,
+    "prev_page_url": null,
+    "to": 1,
+    "total": 1
+}
