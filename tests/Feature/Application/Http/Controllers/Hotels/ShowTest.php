@@ -3,6 +3,7 @@
 namespace Tests\Feature\Application\Http\Controllers\Hotels;
 
 use App\Models\Hotels\Hotel;
+use App\Models\User;
 use Illuminate\Support\Arr;
 use Illuminate\Testing\TestResponse;
 use Tests\TestCase;
@@ -15,6 +16,20 @@ class ShowTest extends TestCase
         [$hotel] = $this->prepare();
 
         $response = $this->makeRequest($hotel);
+
+        $this->assertResponse($response);
+    }
+
+    /** @test */
+    public function guest_can_show_with_users()
+    {
+        [$hotel] = $this->prepare();
+
+        $hotel->users()->sync( User::factory()->create());
+
+        $response = $this->makeRequest($hotel, [
+            'include' => 'users',
+        ]);
 
         $this->assertResponse($response);
     }

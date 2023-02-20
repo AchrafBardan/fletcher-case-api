@@ -10,6 +10,8 @@ use Spatie\QueryBuilder\QueryBuilder;
 class BuildShowQuery {
     public function __invoke(Builder|Relation|string $subject = Hotel::class)
     {
-        return QueryBuilder::for($subject);
+        return QueryBuilder::for($subject)->allowedIncludes([
+            'users',
+        ]);
     }
 }

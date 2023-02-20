@@ -19,6 +19,6 @@ class HotelPolicy
      */
     public function update(User $user, Hotel $hotel)
     {
-        return $hotel->users->contains($user);
+        return $hotel->users()->where('users.id', $user->getKey())->exists();
     }
 }
